@@ -1,24 +1,99 @@
 #include<stdio.h>
 
 int main(){
-	 int x;
+	
+	int  a,b,c,d;
+	
+	printf("Enter a :");
+	scanf("%d/n",&a);
+	
+	printf("Enter b :");
+	scanf("%d/n",&b);
+	
+	printf("Enter c :");
+	scanf("%d/n",&c);
+	
+	printf("Enter d :");
+	scanf("%d/n",&d);
 	 
 	 
-	 printf("Enter of x velue: ");
-	scanf("%d",&x);
+	 if(a>b){
+       
+	   if(a>c){
+	   	
+	   	
+	   	if (a>d){
+	   		
+	   		printf("A is max");
+	   		
+	   		
+		   }	   	
+	   	else{
+	   		
+	   		printf("D is max");
+	   		
+	   		
+		   }
+	   }	 	
+	   else{
+	   	
+	   	if(c>d){
+	   		
+	   		printf("C is max");
+	   		
+	   		
+	   		
+		   }
+	   	else{
+	   		
+	   		
+	   		printf("D is max");
+	   		
+	   		
+	   		
+		   }
+	   	
+	   }	
+	 	
+	 }
+	else{
+		
+		if(b>c){
+			
+			
+			if(b>d){
+				
+				printf("B is max");
+				
+			}
+			else{
+				
+				printf("D is max");
+				
+				
+			}
+			
+			
+		}
+		else{
+			
+			if(c>d){
+				
+				printf("C is max");
+				
+				
+			}
+			
+			else{
+				
+				
+				printf("D is max");
+				
+			}
+		}
+		
+	}
 	
-	int y;
-	printf("Enter of y velue: ");	
-	
-	scanf("%d",&y);
-	
-	
-	int ans;
-	
-	ans =  (x*x) - (2*x*y) + (y*y);
-	
-	
-	printf("%d",ans);
 	
 	return 0;
 }

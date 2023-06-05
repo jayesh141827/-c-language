@@ -1,23 +1,54 @@
 #include<stdio.h>
+
 int main(){
-	 int x;
-	 
-	 
-	 printf("Enter of x velue: ");
-	scanf("%d",&x);
 	
-	int y;
-	printf("Enter of y velue: ");	
+	int a,b,c;
 	
-	scanf("%d",&y);
+	printf("Enter a :");
+	scanf("%d",a);
 	
+	printf("Enter b:");
+	scanf("%d",b);
 	
-	int ans;
-	
-	ans =  (x*x) + (2*x*y) + (y*y);
+	printf("Enter c :");
+	scanf("%d",c);
 	
 	
-	printf("%d",ans);
+	if(a<b){
+      
+	  if(a<c){
+          
+		  ptintf("A is min/n");	  	
+	  	
+	  }		
+	   else{
+	   	   
+	   	   printf("C is min/n");
+	   	
+	   	
+	   }	
+		
+		
+	}
+	else{
+		
+		if(b<c){
+			
+			
+			printf("B is min/n");
+			
+			
+		}
+		
+		else{
+			
+			printf("C is min/n");
+			
+			
+		}
+	}
+	
+	
 	
 	return 0;
 }
