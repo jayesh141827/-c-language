@@ -1,23 +1,193 @@
 #include<stdio.h>
+
 int main(){
-	 int x;
-	 
-	 
-	 printf("Enter of x velue: ");
-	scanf("%d",&x);
+
+int a,b,c,d,e;
+    
+    printf("Enter a :");
+	scanf("%d/n",&a);
 	
-	int y;
-	printf("Enter of y velue: ");	
+	printf("Enter b :");
+	scanf("%d/n",&b);
 	
-	scanf("%d",&y);
+	printf("Enter c :");
+	scanf("%d/n",&c);
 	
+	printf("Enter d :");
+	scanf("%d/n",&d);
 	
-	int ans;
-	
-	ans =  (x*x*x) - (y*y*y) - ((3*x*y)*(x+y));
-	
-	
-	printf("%d",ans);
-	
-	return 0;
+	printf("Enter e :");
+	scanf("%d/n",&e);
+    
+      a>b ?
+      	
+      	a>c ?
+      		
+      		a>d ?
+      			
+      			
+      			a>e ?      				
+      				printf("A is max")
+      				
+				   :
+      				
+      				printf("E is  max")
+      				
+      				
+				  
+      			
+			  
+      		  :
+      		
+      		d>e   ?
+               
+			   printf(" D is max")    			
+      			
+      			
+      			
+			  
+      			
+      	    :
+      	    	
+      	    	printf(" E is max ")
+      	    	
+			  	
+			  
+      		
+      		
+		    :
+      		
+      		c>d ?
+             
+			 
+			 c>e  ?
+			 	
+			 	printf("c is max ")
+			
+			 		
+      			
+      		  :
+      			
+      			
+      			printf("e is max")
+      			
+			  	
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+      		
+      		  :
+      			
+      			
+      		  d>e   ?
+      		  	
+      		  	
+      		  	
+      		  	printf("D is max ")
+				
+			  :
+			  	
+			  	
+			  	printf("E is max")
+			  	
+			  	
+					
+			  
+      		
+      		
+      		
+		  
+      	
+      	
+      	
+	  
+          :
+      	
+      	b>c  ?
+      		
+      	    b>d  ?
+      	    	
+      	    	d>e  ?
+      	    	
+      	    		printf("D is max")
+      	    		
+      	    		
+      	    
+				  
+      	    	:
+      	    		
+      	    		printf("E is max")
+      	    		
+				  
+			  	
+      	    :
+      	    	
+      	    	
+      	    	d>e?
+      	    		
+      	    		printf("D is max")
+      	    		
+      	    		
+      	    		
+      	    		
+				  :
+      	    		
+      	    		printf("E is max")
+      	    		
+				  
+      	    	
+      	    	
+      	    	
+      	    	
+			  
+      		
+		   :
+      		
+      		c>d  ?
+      			
+      			
+      			c>e ?
+      				 
+      				printf("C is max")
+      				
+      				
+				    :
+      				
+      				printf("D is max")
+		
+      			
+			  
+      		 :
+      			
+      			d>e?
+      				
+      				printf("D is max")
+				  
+      			 :
+      				
+      				printf("E is max");
+      			
+				  
+      			
+      			
+      			
+	    	  
+		  
+      	
+      	
+      	
+      	
+      	
+	  
+
+
+    return 0;
+ 
+ 
 }
+

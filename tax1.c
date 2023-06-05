@@ -1,53 +1,20 @@
 #include<stdio.h>
 
-int main(){
+int main (){
 	
-	int a,b,c;
+	int a,b;
 	
-	printf("Enter a :");
-	scanf("%d",a);
+	 printf("Enter a :");
+	 scanf("%d",&a);
 	
-	printf("Enter b:");
-	scanf("%d",b);
-	
-	printf("Enter c :");
-	scanf("%d",c);
+	 printf("Enter b :");
+	 scanf("%d",&b);
 	
 	
-	if(a<b){
-      
-	  if(a<c){
-          
-		  ptintf("A is min/n");	  	
-	  	
-	  }		
-	   else{
-	   	   
-	   	   printf("C is min/n");
-	   	
-	   	
-	   }	
-		
-		
-	}
-	else{
-		
-		if(b<c){
-			
-			
-			printf("B is min/n");
-			
-			
-		}
-		
-		else{
-			
-			printf("C is min/n");
-			
-			
-		}
-	}
-	
+	a>b ? 
+	    printf("A is max") 
+	: 
+	     printf("B is max ");	
 	
 	
 	return 0;

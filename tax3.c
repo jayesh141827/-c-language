@@ -1,10 +1,10 @@
 #include<stdio.h>
 
 int main(){
-
-int a,b,c,d,e;
-    
-    printf("Enter a :");
+	
+	int  a,b,c,d;
+	
+	printf("Enter a :");
 	scanf("%d/n",&a);
 	
 	printf("Enter b :");
@@ -15,182 +15,84 @@ int a,b,c,d,e;
 	
 	printf("Enter d :");
 	scanf("%d/n",&d);
+	 
+	 
+	 a>b ?
+       
+	   a>c ?
+	   	
+	   	
+	   	a>d ?
+	   		
+	   		printf("A is max")
+	   		
+	   		
+		   	   	
+	   	:
+	   		
+	   		printf("D is max")
+	   		
+	   		
+		   	 	
+	   :
+	   	
+	   	c>d ?
+	   		
+	   		printf("C is max")
+	   		
+	   		
+	   		
+		   :
+	   	
+	   		
+	   	
+	   		printf("D is max")
+	   		
+	   		
+	   		
+		   
+	   	
+	   	
+	 	
+	 
+	:
+		
+		b>c ?			
+			
+			b>d ?
+				
+				printf("B is max")
+				
+			:
+			
+				
+				printf("D is max")
+				
+				
+			
+			
+			
+		
+		:
+			
+			c>d ?
+				
+				printf("C is max")
+				
+				
+			
+			
+		    :
+				
+				
+				printf("D is max");
+				
+			
+		
+		
 	
-	printf("Enter e :");
-	scanf("%d/n",&e);
-    
-      if(a<b){
-      	
-      	if(a<c){
-      		
-      		if(a<d){
-      			
-      			
-      			if(a<e){
-      				
-      				printf("A is min");
-      				
-				  }
-      			else{
-      				
-      				printf("E is  min");
-      				
-      				
-				  }
-      			
-			  }
-      		else{  
-      		
-      		if(d<e){
-               
-			   printf(" D is min");      			
-      			
-      			
-      			
-			  }
-      			
-      	    else{
-      	    	
-      	    	printf(" E is min ");
-      	    	
-			  }		
-			  }
-      		
-      		
-		  }
-      	else{
-      		
-      		if(c<d){
-             
-			 
-			 if(c<e){
-			 	
-			 	printf("c is min ");
-			 	
-			 }      			
-      			
-      		else{
-      			
-      			
-      			printf("e is mihn");
-      			
-			  }	
-			  
-			  
-			  
-			  
-			  
-			  
-			  
-			  }
-      		
-      		else{
-      			
-      			
-      		  if(d<e){
-      		  	
-      		  	
-      		  	
-      		  	printf("D is min ");
-				}
-			  else{
-			  	
-			  	
-			  	printf("E is min");
-			  	
-			  }	
-					
-			  }
-      		
-      		
-      		
-		  }
-      	
-      	
-      	
-	  }
-      else{
-      	
-      	if(b<c){
-      		
-      	    if(b<d){
-      	    	
-      	    	if(d<e){
-      	    		
-      	    		printf("D is min");
-      	    		
-      	    		
-      	    
-				  }
-      	    	else{
-      	    		
-      	    		printf("E is min");
-      	    		
-				  }
-			  }	
-      	    else{
-      	    	
-      	    	
-      	    	if(d<e){
-      	    		
-      	    		printf("D is min");
-      	    		
-      	    		
-      	    		
-      	    		
-				  }
-      	    	else{
-      	    		
-      	    		printf("E is min");
-      	    		
-				  }
-      	    	
-      	    	
-      	    	
-      	    	
-			  }	
-      		
-		  }
-      	else{
-      		
-      		if(c<d){
-      			if(c<e){
-      				 
-      				printf("C is min"); 
-      				
-      				
-				  }
-      			else{
-      				
-      				printf("D is min");
-				  }
-      			
-			  }
-      		else{
-      			
-      			if(d<e){
-      				
-      				printf("D is min");
-				  }
-      			else{
-      				
-      				printf("E is min");
-      				
-				  }
-      			
-      			
-      			
-	    	  }
-		  }
-      	
-      	
-      	
-      	
-      	
-	  }
-
-
-    return 0;
- 
- 
+	
+	
+	return 0;
 }
+
